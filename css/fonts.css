@@ -1,0 +1,29 @@
+.html {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p {
+    font-family:'Hanken Grotesk';
+}
+
+.heading--darkblue {
+    color: #16213C;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.heading--orange {
+    color: #F5841F;
+}
+
+.font--darkblue {
+    color:#16213C;
+}
+
+.font-li--darkblue {
+    text-decoration: none;
+    list-style-type: none;
+    color: #16213C;
+}
