@@ -74,18 +74,19 @@
 
 
 .hamburger-row {
-    padding: 1em;
+    padding: .5em 0em;
     background-color:white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .hamburger {
     display: block;
 }
 .hamburger-nav {
     background-color: white;
-    border-top: 2px solid #F5841F;
-    border-bottom: 2px solid #F5841F;
+    padding-top: 10px;
 }
 .hamburger-nav ul {
     margin: 0;
@@ -96,11 +97,13 @@
     padding: 0.25em 1em;
 }
 .hamburger-nav li:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.1);
+    
 }
-.hamburger-nav li:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+.hamburger-nav li a:hover {
+    background-color: #F5841F;
     color: white;
+    border: solid;
+    border-radius: 12px;
 }
 
 @media screen and (min-width: 640px) {

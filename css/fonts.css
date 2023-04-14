@@ -1,17 +1,55 @@
 .html {
-    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: Hanken Grotesk, sans-serif;
 }
 
-p {
-    font-family:'Hanken Grotesk';
+p, a, h1, h2, h3, h4 {
+    font-family: Hanken Grotesk;
+}
+
+.blogs-item__text {
+   display: -webkit-box;
+   -webkit-line-clamp: 4;  
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.font_33 {
+    font-size: 33px;
+    text-align: center;
+    display: inline-block;
 }
 
 .heading--darkblue {
     color: #16213C;
 }
 
+h1 > .heading--darkblue {
+    font-weight: bolder;
+}
+
 h1, h2, h3 {
     margin: 0;
+    font-weight: 900;
+}
+
+h2, h3 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-family: ;
+}
+
+.h3_footer {
+    color: #8ECAE6;
+    display: flex;
+    justify-content: left;
+}
+
+.heading_sponsors {
+    display: none;
 }
 
 .heading--orange {
@@ -26,4 +64,23 @@ h1, h2, h3 {
     text-decoration: none;
     list-style-type: none;
     color: #16213C;
+    background-image: url(/ico/check.svg);
+    background-repeat: no-repeat;
+    padding: 3px 0px 2px 24px;
+    background-position-y: center;
+}
+
+.vyhody-item__text {
+    text-align: center;
+    width: 210px;
+    margin: 15px auto 28px auto;
+}
+
+.footer-odkazy {
+    color: #8ECAE6;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
