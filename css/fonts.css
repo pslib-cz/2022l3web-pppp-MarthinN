@@ -81,6 +81,23 @@ h2 {
     text-decoration: none;
 }
 
+.footer-odkazy:hover {
+    scale: 1.05;
+    transition: .2s;
+}
+
 li {
     list-style-type: none;
+}
+
+.footer_text {
+    color: #8ECAE6;
+    margin: 0px;
+    padding-left: 40px;
+}
+
+.odkazy {
+    display: flex;
+    flex-direction: row;
+    margin-left: -41px;
 }

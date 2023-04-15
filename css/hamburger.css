@@ -104,6 +104,8 @@
     color: white;
     border: solid;
     border-radius: 12px;
+    scale: 1.05;
+    transition: .2s;
 }
 
 @media screen and (min-width: 640px) {
@@ -113,13 +115,15 @@
 
     .hamburger-nav {
         transform: none;
-        height: calc(100vh - 4px);
     }
 
     .hamburger-nav ul {
-        height: 100%;
-        width: 33vw;
-        max-width: 200px;
-        border-right: 1px solid rgb(96, 80, 128);
+        display: flex;
+        justify-content: right;
+    }
+
+    .menu-item__xx {
+        border: none;
+        color: black;
     }
 }

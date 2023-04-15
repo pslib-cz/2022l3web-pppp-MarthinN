@@ -35,6 +35,11 @@ body {
     color: #8ECAE6;
 }
 
+.footer__contact:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
 .top-header__email {
     display: inline-block;
     background-image: url(/ico/ico_email.svg);
@@ -55,6 +60,11 @@ body {
     color: #8ECAE6;
 }
 
+.footer__email:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
 .top-header__login {
     display: block;
     background-image: url(/ico/ico_head__login.svg);
@@ -72,11 +82,25 @@ body {
     padding-left: 24px;
 }
 
+.footer__youtube:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
 .footer__linkedin {
     background-image: url(/ico/ico_linkedin.svg);
     background-repeat: no-repeat;
     padding-left: 24px;
     margin-left: 7px;
+}
+
+.footer__linkedin:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
+.footer_logo--position {
+    padding-bottom: 15px;
 }
 
 .navbar {
@@ -102,6 +126,27 @@ body {
     border-radius: 30px;
     text-decoration: none;
     font-weight: 700;
+}
+
+.button:hover {
+    background-color: #8ECAE6;
+    scale: 1.1;
+    transition: .2s;    
+}
+
+.top-header__login:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
+.top-header__contact:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
+.top-header__email:hover {
+    scale: 1.1;
+    transition: .2s;
 }
 
 .button_position {
@@ -163,4 +208,13 @@ body {
 
 .section-footer {
     background-color: #16213C;
+}
+
+.footer__footer {
+    padding-top: 22px;
+    border-top: solid 1px;
+}
+
+.footer_footer--text {
+    margin: 7px 0px;
 }
