@@ -4,39 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/hamburger.css">
+    <script src="/hamburger.js"></script>
     <title>Funkce - Logoipsum</title>
 </head>
 <body>
     <div class="top-header">
         <div class="top-header__right">
-            <a class="top-header__contact" href="tel:+420 777 666 666">+420 777 666 666<a>
-            <a class="top-header__email "href="mailto:obchod@l3web.cz">obchod@l3web.cz</a>
+            <a class="top-header__contact" href="tel:+420 777 666 666"><b>+420 777 666 666</b></a>
+            <a class="top-header__email "href="mailto:obchod@l3web.cz"><b>obchod@l3web.cz</b></a>
         </div>
-        <div class="top-header__left"><a class="top-header__login" href="#">Přihlášení<a></div>
+        <div class="top-header__left"><a class="top-header__login" href="#"><b>Přihlášení</b><a></div>
     </div>
     <header>
         <nav class="navbar">
-            <a class="navbar-logo"><img src="" alt=""></a>
-            <div class="navbar-verze"><a class="button" href="#">Zkušební verze</a></div>
-            <menu class="nav-burger--menu navbar__menu--hidden">
-                <li class="menu-item">
-                    <a href="index.html"><b>Úvod</b></a>
-                </li>
-                <li class="menu-item">
-                    <a href="funkce.html"><b>Funkce</b></a>
-                </li>
-                <li class="menu-item">
-                    <a href="#"><b>Podpora</b></a>
-                </li>
-                <li class="menu-item">
-                    <a href="#"><b>Ceník</b></a>
-                </li>
-                <li class="menu-item">
-                    <a href="kontakt.html"><b>Kontakt</b></a>
-                </li>
-            </menu>
+            <div class="hamburger-row">
+                <a class="navbar-logo" href="index.html"><img src="/ico/main logo.svg" alt=""></a>
+                <a class="button" href="#">Zkušební verze</a>
+                <a href="javasript:void(0)" class="hamburger hamburger-btn hamburger-zone">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <nav class="hamburger-nav hamburger-zone">
+                <ul>
+                    <li class="menu-item">
+                        <a class="menu-item__xx" href="index.html"><b>Úvod</b></a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-item__xx" href="funkce.html"><b>Funkce</b></a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-item__xx" href="#"><b>Podpora</b></a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-item__xx" href="#"><b>Ceník</b></a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-item__xx" href="kontakt.html"><b>Kontakt</b></a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
     </header>
 </body>

@@ -63,7 +63,20 @@ body {
     padding-left: 24px;
     text-decoration: none;
     color: black;
-    
+}
+
+.footer__youtube {
+    background-image: url(/ico/ico_youtube.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 24px;
+}
+
+.footer__linkedin {
+    background-image: url(/ico/ico_linkedin.svg);
+    background-repeat: no-repeat;
+    padding-left: 24px;
+    margin-left: 7px;
 }
 
 .navbar {
